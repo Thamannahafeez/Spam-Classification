@@ -21,7 +21,7 @@ The dataset was provided as a tsv file.
 
 * Firstly, The messages are read and feature engineering has to be done on the data and this is an important part of spam detection in general. As from continuosly performing EDA it leads us to start thinking about the features that we are going to use. Here comes the general idea of feature engineering. The better our domain knowledge on the data, the better our ability to engineer more features from it.
 
-* Secondly, Tokenization of the messages are done using CountVectorizer.
+* Secondly, Tokenization, Cleansing and Vectorizing of the messages are done.
 
 * Finally, after the data wrangling is done, the machine learning models will be built to predict the spam/ ham. 
 
